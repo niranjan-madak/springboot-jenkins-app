@@ -8,6 +8,6 @@ public class WelcomeController {
 
     @GetMapping("/greet")
     public String welcomeMessage() {
-        return "welcome to this app, created and build through jenkins pipeline !!!"
+        return "welcome to this app, created and build through jenkins pipeline !!!";
     }
 }
